@@ -1,0 +1,21 @@
+.column {
+    background-color: rgba(238, 238, 238, 0.85);
+    border-radius: 1em;
+    margin: 1.5em;
+}
+
+body {
+    /**
+    The bing wallpaper service is provided by:
+    https://github.com/TimothyYe/bing-wallpaper.
+    You may host and use your own service.
+
+    Use resolution=1920 for 1080p wallpaper image.
+    */
+    background-image: url(https://bing.biturl.top/?resolution=3840&format=image&index=0&mkt=zh-CN);
+    background-size: cover;
+}
+
+#options_button {
+    background-color: #eeeeee;
+}
